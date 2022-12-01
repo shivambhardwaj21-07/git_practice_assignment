@@ -1,9 +1,12 @@
-let num=1221
-let bag="";
-let str="";
-bag=bag+num;
-for(let i=bag.length;i>=0;i--)
-{str=str+bag[i]}
+  let arr="afifa";
+bag="";
+for(i=arr.length-1;i>=0;i--){
+  bag=bag+arr[i];
 
-if(str==bag){console.log("Yes")}
-else{console.log("No")}
+ 
+}
+if(arr==bag){
+  console.log("Pallindrome");
+}else{
+  console.log("Not Pallindrome");
+}
